@@ -1,0 +1,99 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: white;
+}
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+header {
+	height: 100px;
+}
+
+header h1 {
+	color:#77a466;
+	text-transform: uppercase;
+
+
+}
+
+header h1 span {
+	color: black;
+}
+
+nav {
+	float: right;
+	padding: 25px 25px;
+}
+
+nav ul li {
+	display: inline-block;
+
+}
+
+nav ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #77a466 ;
+	padding-left: 10px;
+	font-weight: bold;
+
+}
+
+h2 {
+	text-transform: uppercase;
+	color: #77a466 ;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
