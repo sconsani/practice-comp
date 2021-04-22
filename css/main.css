@@ -5,8 +5,9 @@ body {
 }
 
 .full-width {
-	width: 1250px;
+	width: 1200px;
 	overflow: auto;
+	margin-right: 0;
 }
 
 .half-width {
@@ -20,7 +21,8 @@ body {
 }
 
 header {
-	height: 100px;
+	height: 51px;
+	margin-bottom: 40px;
 
 }
 
@@ -36,8 +38,8 @@ header h1 span {
 }
 
 header .full-width{
-	margin-right: 21px;
-}
+/*	margin-right: 21px;
+*/}
 
 
 nav {
@@ -66,34 +68,56 @@ h2 {
 	color: #77a466 ;
 	font-weight: bold;
 	font-size: 18px;
+	margin-right: 0;
 }
 
 #top-section .full-width{
 	height: 292px;
+	margin-right: 0;
 }
 
 #top-section .full-width-p{
-	width: 1250px;
+	width: 1160px;
 	overflow: auto;
+	margin-right: 0;
 }
+
+#bottom-section .full-width {
+	border-top: .25px solid grey;
+	border-bottom: .25px solid grey;
+	margin-right: 0;
+	margin-left: 0;
+	width: 1272px;
+}
+
 
 #bottom-section .third-width {
-	border: .25px solid black;
 	max-height: 210px;
-	padding-left: 33px;
-
+	padding-left: 23px;
 }
+
+#one.third-width{
+	border-right: .25px solid grey;
+}
+
+#two.third-width{
+	border-right: .25px solid grey;
+}
+
+
+
 
 #bottom-section .third-width h3{
 	font-size: 12px;
 	padding-top: 30px;
-	margin: 0;
+	margin: 0 0 20px 0;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 }
 
 #bottom-section .third-width p{
 	font-size: 16px;
+	margin: 0;
 }
 
 #bottom-section .third-width ul li{
@@ -106,14 +130,20 @@ h2 {
 
 
 #bottom-section .third-width ul{
-margin-left: 0;
-padding: 0;
+	margin-left: 0;
+	padding: 0;
 }
 
 
 
 .footer-note {
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.footer-note span{
+	color:#77a466 ;
 }
 
 
