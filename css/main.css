@@ -1,11 +1,11 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: white;
+	margin: 51px 21px 0 21px;
 }
 
 .full-width {
-	width: 1200px;
-	margin: 0 auto;
+	width: 1250px;
 	overflow: auto;
 }
 
@@ -21,12 +21,13 @@ body {
 
 header {
 	height: 100px;
+
 }
 
 header h1 {
 	color:#77a466;
 	text-transform: uppercase;
-
+	margin: 0;
 
 }
 
@@ -34,9 +35,15 @@ header h1 span {
 	color: black;
 }
 
+header .full-width{
+	margin-right: 21px;
+}
+
+
 nav {
 	float: right;
-	padding: 25px 25px;
+	margin: 0;
+	
 }
 
 nav ul li {
@@ -61,7 +68,53 @@ h2 {
 	font-size: 18px;
 }
 
+#top-section .full-width{
+	height: 292px;
+}
 
+#top-section .full-width-p{
+	width: 1250px;
+	overflow: auto;
+}
+
+#bottom-section .third-width {
+	border: .25px solid black;
+	max-height: 210px;
+	padding-left: 33px;
+
+}
+
+#bottom-section .third-width h3{
+	font-size: 12px;
+	padding-top: 30px;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+#bottom-section .third-width p{
+	font-size: 16px;
+}
+
+#bottom-section .third-width ul li{
+	font-size: 16px;
+	list-style-type: none;
+	padding-bottom: 20px;
+	color:#77a466 ;
+
+}
+
+
+#bottom-section .third-width ul{
+margin-left: 0;
+padding: 0;
+}
+
+
+
+.footer-note {
+	text-align: center;
+}
 
 
 
